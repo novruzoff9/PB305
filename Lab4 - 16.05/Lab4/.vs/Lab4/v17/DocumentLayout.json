@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\PB305\\Lab4 - 16.05\\Lab4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7B30D886-3496-4B7B-B2AA-80102DEE57B5}|RestaurantSimulation\\RestaurantSimulation.csproj|c:\\users\\user\\desktop\\pb305\\lab4 - 16.05\\lab4\\restaurantsimulation\\models\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B30D886-3496-4B7B-B2AA-80102DEE57B5}|RestaurantSimulation\\RestaurantSimulation.csproj|solutionrelative:restaurantsimulation\\models\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7B30D886-3496-4B7B-B2AA-80102DEE57B5}|RestaurantSimulation\\RestaurantSimulation.csproj|c:\\users\\user\\desktop\\pb305\\lab4 - 16.05\\lab4\\restaurantsimulation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B30D886-3496-4B7B-B2AA-80102DEE57B5}|RestaurantSimulation\\RestaurantSimulation.csproj|solutionrelative:restaurantsimulation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B30D886-3496-4B7B-B2AA-80102DEE57B5}|RestaurantSimulation\\RestaurantSimulation.csproj|c:\\users\\user\\desktop\\pb305\\lab4 - 16.05\\lab4\\restaurantsimulation\\interfaces\\ifoodservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B30D886-3496-4B7B-B2AA-80102DEE57B5}|RestaurantSimulation\\RestaurantSimulation.csproj|solutionrelative:restaurantsimulation\\interfaces\\ifoodservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B30D886-3496-4B7B-B2AA-80102DEE57B5}|RestaurantSimulation\\RestaurantSimulation.csproj|c:\\users\\user\\desktop\\pb305\\lab4 - 16.05\\lab4\\restaurantsimulation\\services\\pizzaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B30D886-3496-4B7B-B2AA-80102DEE57B5}|RestaurantSimulation\\RestaurantSimulation.csproj|solutionrelative:restaurantsimulation\\services\\pizzaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B30D886-3496-4B7B-B2AA-80102DEE57B5}|RestaurantSimulation\\RestaurantSimulation.csproj|c:\\users\\user\\desktop\\pb305\\lab4 - 16.05\\lab4\\restaurantsimulation\\interfaces\\foodservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B30D886-3496-4B7B-B2AA-80102DEE57B5}|RestaurantSimulation\\RestaurantSimulation.csproj|solutionrelative:restaurantsimulation\\interfaces\\foodservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B30D886-3496-4B7B-B2AA-80102DEE57B5}|RestaurantSimulation\\RestaurantSimulation.csproj|c:\\users\\user\\desktop\\pb305\\lab4 - 16.05\\lab4\\restaurantsimulation\\models\\fries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B30D886-3496-4B7B-B2AA-80102DEE57B5}|RestaurantSimulation\\RestaurantSimulation.csproj|solutionrelative:restaurantsimulation\\models\\fries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B30D886-3496-4B7B-B2AA-80102DEE57B5}|RestaurantSimulation\\RestaurantSimulation.csproj|c:\\users\\user\\desktop\\pb305\\lab4 - 16.05\\lab4\\restaurantsimulation\\models\\pizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B30D886-3496-4B7B-B2AA-80102DEE57B5}|RestaurantSimulation\\RestaurantSimulation.csproj|solutionrelative:restaurantsimulation\\models\\pizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B30D886-3496-4B7B-B2AA-80102DEE57B5}|RestaurantSimulation\\RestaurantSimulation.csproj|c:\\users\\user\\desktop\\pb305\\lab4 - 16.05\\lab4\\restaurantsimulation\\interfaces\\ipizzaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B30D886-3496-4B7B-B2AA-80102DEE57B5}|RestaurantSimulation\\RestaurantSimulation.csproj|solutionrelative:restaurantsimulation\\interfaces\\ipizzaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B30D886-3496-4B7B-B2AA-80102DEE57B5}|RestaurantSimulation\\RestaurantSimulation.csproj|c:\\users\\user\\desktop\\pb305\\lab4 - 16.05\\lab4\\restaurantsimulation\\services\\foodservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B30D886-3496-4B7B-B2AA-80102DEE57B5}|RestaurantSimulation\\RestaurantSimulation.csproj|solutionrelative:restaurantsimulation\\services\\foodservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B30D886-3496-4B7B-B2AA-80102DEE57B5}|RestaurantSimulation\\RestaurantSimulation.csproj|c:\\users\\user\\desktop\\pb305\\lab4 - 16.05\\lab4\\restaurantsimulation\\interfaces\\ifoodservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B30D886-3496-4B7B-B2AA-80102DEE57B5}|RestaurantSimulation\\RestaurantSimulation.csproj|solutionrelative:restaurantsimulation\\interfaces\\ifoodservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,8 +38,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Fries.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PB305\\Lab4 - 16.05\\Lab4\\RestaurantSimulation\\Models\\Fries.cs",
+              "RelativeDocumentMoniker": "RestaurantSimulation\\Models\\Fries.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\PB305\\Lab4 - 16.05\\Lab4\\RestaurantSimulation\\Models\\Fries.cs",
+              "RelativeToolTip": "RestaurantSimulation\\Models\\Fries.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwBEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T08:58:29.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PizzaService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PB305\\Lab4 - 16.05\\Lab4\\RestaurantSimulation\\Services\\PizzaService.cs",
+              "RelativeDocumentMoniker": "RestaurantSimulation\\Services\\PizzaService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\PB305\\Lab4 - 16.05\\Lab4\\RestaurantSimulation\\Services\\PizzaService.cs",
+              "RelativeToolTip": "RestaurantSimulation\\Services\\PizzaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T08:58:20.847Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -42,15 +76,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Food.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PB305\\Lab4 - 16.05\\Lab4\\RestaurantSimulation\\Models\\Food.cs",
-              "RelativeDocumentMoniker": "RestaurantSimulation\\Models\\Food.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\PB305\\Lab4 - 16.05\\Lab4\\RestaurantSimulation\\Models\\Food.cs",
-              "RelativeToolTip": "RestaurantSimulation\\Models\\Food.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAQwA8AAABFAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Pizza.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PB305\\Lab4 - 16.05\\Lab4\\RestaurantSimulation\\Models\\Pizza.cs",
+              "RelativeDocumentMoniker": "RestaurantSimulation\\Models\\Pizza.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\PB305\\Lab4 - 16.05\\Lab4\\RestaurantSimulation\\Models\\Pizza.cs",
+              "RelativeToolTip": "RestaurantSimulation\\Models\\Pizza.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T08:55:38.908Z",
+              "WhenOpened": "2025-05-17T08:57:13.919Z",
               "EditorCaption": ""
             },
             {
@@ -61,46 +95,49 @@
               "RelativeDocumentMoniker": "RestaurantSimulation\\Interfaces\\IPizzaService.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\PB305\\Lab4 - 16.05\\Lab4\\RestaurantSimulation\\Interfaces\\IPizzaService.cs",
               "RelativeToolTip": "RestaurantSimulation\\Interfaces\\IPizzaService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAMwBUAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T17:14:27.109Z"
+              "WhenOpened": "2025-05-16T17:14:27.109Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "FoodService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PB305\\Lab4 - 16.05\\Lab4\\RestaurantSimulation\\Interfaces\\FoodService.cs",
-              "RelativeDocumentMoniker": "RestaurantSimulation\\Interfaces\\FoodService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\PB305\\Lab4 - 16.05\\Lab4\\RestaurantSimulation\\Interfaces\\FoodService.cs",
-              "RelativeToolTip": "RestaurantSimulation\\Interfaces\\FoodService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PB305\\Lab4 - 16.05\\Lab4\\RestaurantSimulation\\Services\\FoodService.cs",
+              "RelativeDocumentMoniker": "RestaurantSimulation\\Services\\FoodService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\PB305\\Lab4 - 16.05\\Lab4\\RestaurantSimulation\\Services\\FoodService.cs",
+              "RelativeToolTip": "RestaurantSimulation\\Services\\FoodService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T16:57:36.692Z"
+              "WhenOpened": "2025-05-16T16:57:36.692Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\PB305\\Lab4 - 16.05\\Lab4\\RestaurantSimulation\\Program.cs",
               "RelativeDocumentMoniker": "RestaurantSimulation\\Program.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\PB305\\Lab4 - 16.05\\Lab4\\RestaurantSimulation\\Program.cs",
               "RelativeToolTip": "RestaurantSimulation\\Program.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAABYAAACNAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-16T15:11:21.217Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "IFoodService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\PB305\\Lab4 - 16.05\\Lab4\\RestaurantSimulation\\Interfaces\\IFoodService.cs",
               "RelativeDocumentMoniker": "RestaurantSimulation\\Interfaces\\IFoodService.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\PB305\\Lab4 - 16.05\\Lab4\\RestaurantSimulation\\Interfaces\\IFoodService.cs",
               "RelativeToolTip": "RestaurantSimulation\\Interfaces\\IFoodService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T16:45:21.582Z"
+              "WhenOpened": "2025-05-16T16:45:21.582Z",
+              "EditorCaption": ""
             }
           ]
         }

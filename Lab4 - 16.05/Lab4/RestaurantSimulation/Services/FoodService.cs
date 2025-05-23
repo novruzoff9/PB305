@@ -1,6 +1,7 @@
-﻿using RestaurantSimulation.Models;
+﻿using RestaurantSimulation.Interfaces;
+using RestaurantSimulation.Models;
 
-namespace RestaurantSimulation.Interfaces;
+namespace RestaurantSimulation.Services;
 
 public class FoodService : IFoodService
 {
