@@ -20,7 +20,13 @@ internal class Program
 
         
 
-        myCustomList.Print();
+        //myCustomList.Print();
         //ints[1] = 5;
+
+
+        Student student = new();
+        Person person = new();
+        student.age
+        //student.Walk();
     }
 }

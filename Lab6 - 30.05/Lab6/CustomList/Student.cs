@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace CustomList;
 
-public class Student
+public class Student : Person
 {
     public int Id { get; set; }
     public string Name { get; set; }
     public string Surname { get; set; }
-    public int Age { get; set; }
 }
 
 public class StudentDto
