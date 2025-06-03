@@ -50,11 +50,11 @@ products.Add(product3);
 ```
 
 Sizdən istənilən tapşırıqlar:
-1. Struktura, qovluqlara, dəyişənlərin adlandırmasına və kodun səliqəli olmasına önəm verin.
 
 > [!WARNING]
 > Aşağıda tapşırılan metodlar sadəcə `Product` class-ı üçün deyil, `SoftDelete` edilməli olan bütün class-lara uyğunlaşmalıdır.
 
+1. Struktura, qovluqlara, dəyişənlərin adlandırmasına və kodun səliqəli olmasına önəm verin.
 2. Bir başa silmək əvəzinə `SoftDelete` edilməsi:
     ```cs
     products.SoftDelete(product2);
