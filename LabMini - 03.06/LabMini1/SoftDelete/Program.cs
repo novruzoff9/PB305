@@ -39,6 +39,11 @@ namespace SoftDelete
 
             products.SoftDeleteMany(x=>x.Id > 2);
 
+            foreach (var item in products)
+            {
+                Console.WriteLine(item);
+            }
+
             var activeProducts = products.GetActiveItems();
             activeProducts.ForEach(Console.WriteLine);
         }
