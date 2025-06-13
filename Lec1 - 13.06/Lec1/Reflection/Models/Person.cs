@@ -25,7 +25,6 @@ public class Person
         return $"Id: {Id}, Name: {Name}";
     }
 
-    [Custom]
     public void Add(int num1, int num2)
     {
         int sum = num1 + num2;
