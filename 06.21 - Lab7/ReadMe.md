@@ -30,5 +30,5 @@
 8. Əlavə Relationlar:
     Hər bir görüşün nəticəsi olaraq pasiyentə bir neçə dərman yazıla bilər.
 9. Join sorğuları:
-    - Hər bir pasoyentə ona yazılmış dərmanların siyahısı
+    - Hər bir pasiyentə ona yazılmış dərmanların siyahısı
     - Həkimlərin hansı xəstələrə hansı dərmanları yazdığnı göstər
