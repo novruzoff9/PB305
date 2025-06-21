@@ -24,3 +24,13 @@
 6. Store Procedures:
     - Pasient-in Id-si göndəriləcək və ona hansı tarixdə hansı həkim tərəfindən nə diaqnoz qoyulduğu göstəriləcək
     - Həkim-in Id-si göndəriləcək və bu gün kimlərlə görüşməli olduği siyahı olaraq çıxacaq
+
+Tez bitirənlər üçün:
+7. Əlavə cədvəllər:
+    - Dərman:
+        - Adı
+8. Əlavə Relationlar:
+    Hər bir görüşün nəticəsi olaraq pasiyentə bir neçə dərman yazıla bilər.
+9. Join sorğuları:
+    - Hər bir pasoyentə ona yazılmış dərmanların siyahısı
+    - Həkimlərin hansı xəstələrə hansı dərmanları yazdığnı göstər
