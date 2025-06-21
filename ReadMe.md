@@ -19,6 +19,12 @@ Bu repositorya PB305 kursunun bütün praktiki məşğələlərini və layihəl�
 | [3 İyun](#mini-lab-1---3-iyun) | Soft Delete Pattern, Extensions | [📁 LabMini](./06.03%20-%20LabMini) |
 | [13 İyun](#lecture-1---13-iyun) | Reflection, Garbage Collection | [📁 Lec1](./06.13%20-%20Lec1) |
 
+### 🔹 SQL Database Fundamentals
+
+| Tarix | Mövzu | Əlavə |
+|-------|--------|-------|
+| [21 İyun](#lab-7---21-iyun) | SQL DDL/DML/TCL, JOINs, Views, Procedures | [📁 Lab7](./06.21%20-%20Lab7) |
+
 ---
 
 ## 📋 Dərs Detayları
@@ -141,6 +147,20 @@ Bu repositorya PB305 kursunun bütün praktiki məşğələlərini və layihəl�
 - `using` statement və IDisposable pattern
 
 **🔗 Folder:** [06.13 - Lec1](./06.13%20-%20Lec1)
+
+---
+
+### Lab 7 - 21 İyun
+**📖 SQL Database ilə LMS Sistemi**
+- DDL, DML, TCL komandaları
+- SQL Constraints və Keys
+- JOIN operations (Inner, Left, Right, Full, Self, Cross)
+- Set operations (Union, Union All, Except, Intersect)
+- Date functions və manipulation
+- Views, Stored Procedures, Functions
+- LMS (Learning Management System) verilənlər bazası qurulması
+
+**🔗 Folder:** [06.21 - Lab7](./06.21%20-%20Lab7)
 
 ---
 
