@@ -34,12 +34,12 @@
     - Həkimlərin hansı xəstələrə hansı dərmanları yazdığnı göstər
 
 
-Mahirin Tasklari:
--- Çalışanların yapmış olduğu sipariş adedi (orders)  
--- Employees tablosundan; FirstName alanına göre, isimleri ASC olarak sıraladıktan sonra, sonuç kümesinin ilk beş kaydını ülkelerine göre gruplayınız.
--- Ürün bedeli 35$'dan az olan ürünlerin kategorilerine göre gruplanması
--- Baş harfi A-K aralığında olan ve stok miktarı 5 ile 50 arasında olan ürünleri kategorilerine göre gruplayınız.
--- Her bir siparişteki toplam ürün sayısını bulunuz.
--- Her bir siparişin tutarına göre listelenmesi
--- Toplam tutarı 2500 ile 3500 arasında olan siparişlerin gruplanması
--- Her bir siparişteki toplam ürün sayısı 200'den az olanlar
+Northwind Db üzrə tapşırıqlar:
+- Çalışanların yapmış olduğu sipariş adedi (orders)  
+- Employees tablosundan; FirstName alanına göre, isimleri ASC olarak sıraladıktan sonra, sonuç kümesinin ilk beş kaydını ülkelerine göre gruplayınız.
+- Ürün bedeli 35$'dan az olan ürünlerin kategorilerine göre gruplanması
+- Baş harfi A-K aralığında olan ve stok miktarı 5 ile 50 arasında olan ürünleri kategorilerine göre gruplayınız.
+- Her bir siparişteki toplam ürün sayısını bulunuz.
+- Her bir siparişin tutarına göre listelenmesi
+- Toplam tutarı 2500 ile 3500 arasında olan siparişlerin gruplanması
+- Her bir siparişteki toplam ürün sayısı 200'den az olanlar

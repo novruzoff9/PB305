@@ -23,7 +23,7 @@ Bu repositorya PB305 kursunun bütün praktiki məşğələlərini və layihəl�
 
 | Tarix | Mövzu | Əlavə |
 |-------|--------|-------|
-| [21 İyun](#lab-7---21-iyun) | SQL DDL/DML/TCL, JOINs, Views, Procedures | [📁 Lab7](./06.21%20-%20Lab7) |
+| [21 İyun](#lab-7---21-iyun) | SQL DDL/DML, JOINs, Views, Procedures | [📁 Lab7](./06.21%20-%20Lab7) |
 
 ---
 
@@ -151,14 +151,14 @@ Bu repositorya PB305 kursunun bütün praktiki məşğələlərini və layihəl�
 ---
 
 ### Lab 7 - 21 İyun
-**📖 SQL Database ilə LMS Sistemi**
-- DDL, DML, TCL komandaları
+**📖 SQL Database ilə Xəstəxana Sistemi**
+- DDL, DML komandaları
 - SQL Constraints və Keys
 - JOIN operations (Inner, Left, Right, Full, Self, Cross)
 - Set operations (Union, Union All, Except, Intersect)
 - Date functions və manipulation
 - Views, Stored Procedures, Functions
-- LMS (Learning Management System) verilənlər bazası qurulması
+- Xəstəxana sisteminin verilənlər bazası qurulması
 
 **🔗 Folder:** [06.21 - Lab7](./06.21%20-%20Lab7)
 
