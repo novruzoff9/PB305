@@ -25,6 +25,11 @@ Bu repositorya PB305 kursunun bütün praktiki məşğələlərini və layihəl�
 |-------|--------|-------|
 | [21 İyun](#lab-7---21-iyun) | SQL DDL/DML, JOINs, Views, Procedures | [📁 Lab7](./06.21%20-%20Lab7) |
 
+### 🔹 ORM Fundamentals
+
+| Tarix | Mövzu | Əlavə |
+|-------|--------|-------|
+| [4 İyul](#lab-8---04-iyul) | N-Tier, Repository, DTO, ModelConfiguration | [📁 Lab8](./07.04%20-%20Lab8) |
 ---
 
 ## 📋 Dərs Detayları
@@ -164,6 +169,17 @@ Bu repositorya PB305 kursunun bütün praktiki məşğələlərini və layihəl�
 
 ---
 
+### Lab 8 - 4 İyul
+**📖 N-Tier arxitektura ilə sadə layihə**
+- N-Tier Arxitekura
+- Generic Repository
+- Database Configuration
+- Data Transfer Objects (DTO)
+
+**🔗 Folder:** [07.04 - Lab8](./07.04%20-%20Lab8)
+
+---
+
 ##  Əlaqə və Dəstək
 
 Bu repositorya üzrə suallarınız və ya tövsiyələriniz varsa, mentorla əlaqə saxlaya bilərsiniz.
@@ -172,4 +188,5 @@ Bu repositorya üzrə suallarınız və ya tövsiyələriniz varsa, mentorla əl
 
 ---
 
-> **Qeyd:** Hər dərsin folder-ında həmin dərsin məşğələsi üçün ayrıca README fayl mövcuddur. Detaylı tapşırıqları görmək üçün müvafiq folder-a baxın.
+>[!NOTE] 
+>Hər dərsin folder-ında həmin dərsin məşğələsi üçün ayrıca README fayl mövcuddur. Detaylı tapşırıqları görmək üçün müvafiq folder-a baxın.
