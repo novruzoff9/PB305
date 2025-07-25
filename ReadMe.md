@@ -30,6 +30,12 @@ Bu repositorya PB305 kursunun bütün praktiki məşğələlərini və layihəl�
 | Tarix | Mövzu | Əlavə |
 |-------|--------|-------|
 | [4 İyul](#lab-8---04-iyul) | N-Tier, Repository, DTO, ModelConfiguration | [📁 Lab8](./07.04%20-%20Lab8) |
+
+### 🔹 JavaScript Fundamentals
+
+| Tarix | Mövzu | Əlavə |
+|-------|--------|-------|
+| [25 İyul](#lab-10---25-iyul) | JavaScript Alqoritmlər, Array/String Methods | [📁 Lab10](./07.25%20-%20Lab10) |
 ---
 
 ## 📋 Dərs Detayları
@@ -177,6 +183,20 @@ Bu repositorya PB305 kursunun bütün praktiki məşğələlərini və layihəl�
 - Data Transfer Objects (DTO)
 
 **🔗 Folder:** [07.04 - Lab8](./07.04%20-%20Lab8)
+
+---
+
+### Lab 10 - 25 İyul
+**📖 JavaScript ilə Alqoritmlər**
+- Conditional Statements (if/else, switch/case)
+- Loops (for, while) və alqoritmlər
+- Arrays və Array Methods (filter, map, reduce, etc.)
+- Objects və property manipulation
+- String Methods və string alqoritmləri
+- Səviyyəli tapşırıqlar (Sadə, Orta, Çətin)
+- Mini proyektlər (Calculator, Library, TodoManager)
+
+**🔗 Folder:** [07.25 - Lab10](./07.25%20-%20Lab10)
 
 ---
 
