@@ -196,27 +196,22 @@ function mostFrequent(arr) {
 
 #### **8. Advanced String Algorithms**
 ```javascript
-// 8.1 - String-də anagram olub-olmadığını yoxlayın
-function areAnagrams(str1, str2) {
-    // Kodunuzu buraya yazın
-}
-
-// 8.2 - String-də bütün permutasiyaları tapın
+// 8.1 - String-də bütün permutasiyaları tapın
 function getPermutations(str) {
     // Kodunuzu buraya yazın
 }
 
-// 8.3 - String-də ən uzun palindrom substring-i tapın
+// 8.2 - String-də ən uzun palindrom substring-i tapın
 function longestPalindrome(str) {
     // Kodunuzu buraya yazın
 }
 
-// 8.4 - İki string arasında edit distance hesablayın
+// 8.3 - İki string arasında edit distance hesablayın
 function editDistance(str1, str2) {
     // Kodunuzu buraya yazın
 }
 
-// 8.5 - String-də pattern matching (KMP alqoritmi)
+// 8.4 - String-də pattern matching (KMP alqoritmi)
 function patternSearch(text, pattern) {
     // Kodunuzu buraya yazın
 }
