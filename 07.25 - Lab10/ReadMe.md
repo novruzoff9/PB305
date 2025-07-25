@@ -22,12 +22,12 @@ function checkNumber(num) {
     // Kodunuzu buraya yazın
 }
 
-// 1.4 - Yaşa görə kateqoriya təyin edin (uşaq: 0-12, yeniyetmə: 13-19, böyük: 20+)
+// 1.2 - Yaşa görə kateqoriya təyin edin (uşaq: 0-12, yeniyetmə: 13-19, böyük: 20+)
 function ageCategory(age) {
     // Kodunuzu buraya yazın
 }
 
-// 1.5 - Switch-case ilə həftənin günlərini qaytarın (1-7 arası rəqəm)
+// 1.3 - Switch-case ilə həftənin günlərini qaytarın (1-7 arası rəqəm)
 function getDayName(dayNumber) {
     // Kodunuzu buraya yazın
 }
@@ -188,12 +188,7 @@ function chunkArray(arr, size) {
     // Kodunuzu buraya yazın
 }
 
-// 7.4 - 2D array-in transpoze edilmiş halını qaytarın
-function transposeMatrix(matrix) {
-    // Kodunuzu buraya yazın
-}
-
-// 7.5 - Array-də ən çox təkrarlanan elementi tapın
+// 7.4 - Array-də ən çox təkrarlanan elementi tapın
 function mostFrequent(arr) {
     // Kodunuzu buraya yazın
 }
@@ -234,23 +229,8 @@ function deepSearch(obj, key) {
     // Kodunuzu buraya yazın
 }
 
-// 9.2 - Obyektlərin deep clone-unu yaradın
-function deepClone(obj) {
-    // Kodunuzu buraya yazın
-}
-
-// 9.3 - JSON data-dan ağac strukturu qurun
-function buildTree(data, parentId = null) {
-    // Kodunuzu buraya yazın
-}
-
-// 9.4 - Obyektlərdən ibarət array-də qruplamaq
+// 9.2 - Obyektlərdən ibarət array-də qruplamaq
 function groupBy(arr, key) {
-    // Kodunuzu buraya yazın
-}
-
-// 9.5 - Flatten nested array (istənilən dərinlikdə)
-function flattenArray(arr) {
     // Kodunuzu buraya yazın
 }
 ```
