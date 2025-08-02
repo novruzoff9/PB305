@@ -1,0 +1,151 @@
+/* Quiz Container */
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  padding: 40px 20px;
+  border-radius: 15px;
+}
+
+/* Question Card */
+.question {
+  background: white;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  transition: transform 0.3s ease;
+}
+
+.question:hover {
+  transform: translateY(-5px);
+}
+
+/* Question Title */
+.question .title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 3px solid #667eea;
+}
+
+/* Variants Container */
+.variants {
+  gap: 15px;
+}
+
+/* Individual Option Row */
+.variants .row {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 2px solid transparent;
+  align-items: center;
+}
+
+.variants .row:hover {
+  background: #e3f2fd;
+  border-color: #667eea;
+  transform: translateX(10px);
+}
+
+/* Radio Input Styling */
+.variants input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+  accent-color: #667eea;
+  cursor: pointer;
+}
+
+/* Label Styling */
+.variants label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #555;
+  cursor: pointer;
+  flex: 1;
+  margin: 0;
+}
+
+/* Selected State */
+.variants input[type="radio"]:checked + label {
+  color: #667eea;
+  font-weight: bold;
+}
+
+.variants input[type="radio"]:checked {
+  transform: scale(1.2);
+}
+
+.variants .row:has(input[type="radio"]:checked) {
+  background: #e8f5e8;
+  border-color: #4caf50;
+  box-shadow: 0 5px 15px rgba(76, 175, 80, 0.2);
+}
+
+/* Submit Button */
+#submit {
+  background: linear-gradient(45deg, #667eea, #764ba2);
+  border: none;
+  padding: 15px 40px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#submit:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+  background: linear-gradient(45deg, #764ba2, #667eea);
+}
+
+#submit:active {
+  transform: translateY(-1px);
+}
+
+/* Body Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  margin: 0;
+  padding: 0;
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .question {
+    padding: 20px;
+  }
+  
+  .question .title {
+    font-size: 20px;
+  }
+  
+  .variants label {
+    font-size: 14px;
+  }
+}

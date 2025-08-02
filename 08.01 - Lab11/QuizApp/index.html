@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Timer</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="">
+        <div class="question" data-true="3">
+          <p class="title">Bu sualın cavabını seçin</p>
+          <div class="variants d-flex flex-column">
+            <div class="row d-flex align-items-center">
+              <input value="1" id="inpt1" type="radio" name="1" />
+              <label for="inpt1">Birinci variant</label>
+            </div>
+
+            <div class="row d-flex align-items-center">
+              <input value="2" id="inpt2" type="radio" name="1" />
+              <label for="inpt2">İkinci variant</label>
+            </div>
+
+            <div class="row d-flex align-items-center">
+              <input value="3" id="inpt3" type="radio" name="1" />
+              <label for="inpt3">Üçüncü variant</label>
+            </div>
+
+            <div class="row d-flex align-items-center">
+              <input value="4" id="inpt4" type="radio" name="1" />
+              <label for="inpt4">Dördüncü variant</label>
+            </div>
+          </div>
+        </div>
+        <div class="question" data-true="1">
+          <p class="title">2-ci sual</p>
+          <div class="variants d-flex flex-column">
+            <div class="row d-flex align-items-center">
+              <input value="1" id="inpt1" type="radio" name="2" />
+              <label for="inpt1">Birinci variant</label>
+            </div>
+
+            <div class="row d-flex align-items-center">
+              <input value="2" id="inpt2" type="radio" name="2" />
+              <label for="inpt2">İkinci variant</label>
+            </div>
+
+            <div class="row d-flex align-items-center">
+              <input value="3" id="inpt3" type="radio" name="2" />
+              <label for="inpt3">Üçüncü variant</label>
+            </div>
+
+            <div class="row d-flex align-items-center">
+              <input value="4" id="inpt4" type="radio" name="2" />
+              <label for="inpt4">Dördüncü variant</label>
+            </div>
+          </div>
+        </div>
+        <button id="submit" class="btn btn-primary">Cavabı təsdiqlə</button>
+      </form>
+    </div>
+  </body>
+</html>
+
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+  integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+<script src="./assets/js/main.js"></script>
