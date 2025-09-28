@@ -1,0 +1,6 @@
+@Pb305OnionArc.WebAPI_HostAddress = http://localhost:5253
+
+GET {{Pb305OnionArc.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
