@@ -17,6 +17,14 @@ public class AuthorController(IAuthorService authorService) : ControllerBase
         var response = Response<IEnumerable<AuthorDto>>.Success(authors, 200);
         return Ok(response);
     }
+
+    [HttpGet("{id}")]
+    public async Task<IActionResult> GetAuthorById(string id)
+    {
+        var author = await authorService.GetAuthorByIdAsync(id);
+        var response = Response<AuthorDto>.Success(author, 200);
+        return Ok(response);
+    }
     [HttpPost]
     public async Task<IActionResult> CreateAuthor([FromBody] CreateAuthorDto createAuthorDto)
     {
@@ -24,4 +32,12 @@ public class AuthorController(IAuthorService authorService) : ControllerBase
         var response = Response<AuthorDto>.Success(author, 201);
         return Ok(response);
     }
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> DeleteAuthor(string id)
+    {
+        var result = await authorService.DeleteAuthorAsync(id);
+        var response = Response<bool>.Success(result, 200);
+        return Ok(response);
+    }
+
 }

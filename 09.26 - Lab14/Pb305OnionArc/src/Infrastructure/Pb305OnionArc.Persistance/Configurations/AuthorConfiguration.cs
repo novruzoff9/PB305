@@ -7,7 +7,8 @@ internal class AuthorConfiguration : IEntityTypeConfiguration<Author>
     public void Configure(EntityTypeBuilder<Author> builder)
     {
         builder.HasKey(a => a.Id);
-        builder.OwnsOne(a => a.Address);
+        builder.HasQueryFilter(a => !a.IsDeleted);
+        //builder.OwnsOne(a => a.Address);
         builder.Property(a => a.Name)
                .IsRequired()
                .HasMaxLength(100);

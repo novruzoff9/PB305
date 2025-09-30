@@ -1,23 +1,30 @@
-﻿using Pb305OnionArc.Domain.ValueObjects;
+﻿namespace Pb305OnionArc.Domain.Models;
 
-namespace Pb305OnionArc.Domain.Models;
-
-public class Author : BaseEntity
+public class Author : BaseEntity, ISoftDeletable
 {
     private Author() : base() { } // For EF Core
-    public Author(string name, DateTime birthDate, Address address) : base()
+    public Author(string name, DateTime birthDate) : base()
     {
         Name = name;
         BirthDate = birthDate;
-        Address = address;
     }
     public string Name { get; private set; }
     public DateTime BirthDate { get; init; }
-    public Address Address { get; private set; }
+    //public Address Address { get; private set; }
     public List<Book>? Books { get; private set; }
+    public bool IsDeleted { get; set; }
+    public DateTime? DeletedAt { get; set; }
+    public string? DeletedBy { get; set; }
 
-    public void UpdateAddress(Address newAddress)
+    public void SoftDelete(string deletedBy)
     {
-        Address = newAddress;
+        IsDeleted = true;
+        DeletedAt = DateTime.UtcNow;
+        DeletedBy = deletedBy;
     }
+
+    //public void UpdateAddress(Address newAddress)
+    //{
+    //    Address = newAddress;
+    //}
 }

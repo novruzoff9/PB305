@@ -1,5 +1,6 @@
 using Pb305OnionArc.Application;
 using Pb305OnionArc.Persistance;
+using Pb305OnionArc.WebAPI.Middlewares;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -20,6 +21,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseMiddleware<ExceptiongHandlingMiddleware>();
 
 app.UseAuthorization();
 

@@ -1,4 +1,5 @@
-﻿namespace Pb305OnionArc.Domain.Models;
+﻿
+namespace Pb305OnionArc.Domain.Models;
 
 public class Book(string title, BookStatus status, string authorId) : AuditableEntity()
 {
