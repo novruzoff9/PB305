@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Pb305OnionArc.Application.Common.Models.Author;
 using Pb305OnionArc.Application.Common.Models.Response;
@@ -10,6 +11,7 @@ namespace Pb305OnionArc.WebAPI.Controllers;
 [ApiController]
 public class AuthorController(IAuthorService authorService) : ControllerBase
 {
+    [Authorize]
     [HttpGet]
     public async Task<IActionResult> GetAllAuthors()
     {

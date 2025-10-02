@@ -19,6 +19,7 @@ public static class DependencyInjection
                     sp.GetRequiredService<SoftDeleteInterceptor>()));
 
         services.AddScoped<IAppDbContext, AppDbContext>();
+
         return services;
     }
 }
