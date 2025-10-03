@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Pb305OnionArc.Application.Common.Models.Identity;
+using Pb305OnionArc.Application.Common.Models.Response;
 using Pb305OnionArc.Application.Services.Abstractions;
 using System.Security.Claims;
 
@@ -70,7 +71,6 @@ public class IdentityController : ControllerBase
         
         if (result.IsSuccess)
             return Ok(result);
-        
         return NotFound(result);
     }
 

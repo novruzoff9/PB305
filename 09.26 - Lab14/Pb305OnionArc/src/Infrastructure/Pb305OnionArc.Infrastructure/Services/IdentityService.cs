@@ -8,6 +8,7 @@ using Pb305OnionArc.Domain.Models;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Pb305OnionArc.Infrastructure.Services;
 
@@ -67,7 +68,7 @@ public class IdentityService(
             if (!result.Succeeded)
                 return Response<LoginResponseDto>.Fail("Invalid email or password", 401);
 
-            var token = GenerateJwtToken(user);
+            var token = await GenerateJwtToken(user);
             var userDto = MapToUserDto(user);
 
             var loginResponse = new LoginResponseDto
@@ -170,16 +171,19 @@ public class IdentityService(
         }
     }
 
-    private string GenerateJwtToken(AppUser user)
+    private async Task<string> GenerateJwtToken(AppUser user)
     {
+        var roles = await userManager.GetRolesAsync(user);
+        var role = roles.FirstOrDefault() ?? string.Empty;
         var claims = new[]
         {
             new Claim(JwtRegisteredClaimNames.Sub, user.Id),
             new Claim(JwtRegisteredClaimNames.Email, user.Email ?? string.Empty),
             new Claim(ClaimTypes.Name, user.UserName ?? string.Empty),
-            new Claim("firstName", user.FirstName),
-            new Claim("lastName", user.LastName),
-            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
+            new Claim("company", user.Company),
+            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+            //roles
+            new Claim("role", role)
         };
 
         var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_jwtSettings.SecretKey));

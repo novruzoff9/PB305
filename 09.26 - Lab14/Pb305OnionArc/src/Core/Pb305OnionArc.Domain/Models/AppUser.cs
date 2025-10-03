@@ -11,6 +11,7 @@ public class AppUser : IdentityUser, ISoftDeletable
     public bool IsDeleted { get; set; }
     public DateTime? DeletedAt { get; set; }
     public string? DeletedBy { get; set; }
+    public string Company { get; set; }
 
     // Navigation properties
     public ICollection<Order>? Orders { get; set; }

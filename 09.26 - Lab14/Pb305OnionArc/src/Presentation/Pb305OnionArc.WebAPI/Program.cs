@@ -1,7 +1,9 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.IdentityModel.JsonWebTokens;
 using Microsoft.IdentityModel.Tokens;
 using Pb305OnionArc.Application;
+using Pb305OnionArc.Application.Common.Models.Response;
 using Pb305OnionArc.Domain.Models;
 using Pb305OnionArc.Infrastructure;
 using Pb305OnionArc.Persistance;
@@ -16,6 +18,20 @@ builder.Services.AddControllers();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
+
+//CORS with url http://localhost:3000/
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", builder =>
+    {
+        //builder.WithOrigins("http://localhost:3000/")
+        builder.AllowAnyOrigin()
+               .AllowAnyMethod()
+               .AllowAnyHeader();
+    });
+});
+
+
 builder.Services.AddSwaggerGen(c =>
 {
     c.AddSecurityDefinition("Bearer", new Microsoft.OpenApi.Models.OpenApiSecurityScheme
@@ -72,6 +88,9 @@ builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
 .AddDefaultTokenProviders();
 
 // Add JWT Authentication
+JsonWebTokenHandler.DefaultInboundClaimTypeMap.Remove("sub");
+JsonWebTokenHandler.DefaultInboundClaimTypeMap.Remove("role");
+JsonWebTokenHandler.DefaultInboundClaimTypeMap.Remove("email");
 var jwtSettings = builder.Configuration.GetSection("JwtSettings");
 builder.Services.AddAuthentication(options =>
 {
@@ -89,7 +108,43 @@ builder.Services.AddAuthentication(options =>
         ValidIssuer = jwtSettings["Issuer"],
         ValidAudience = jwtSettings["Audience"],
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings["SecretKey"]!)),
-        ClockSkew = TimeSpan.Zero
+        ClockSkew = TimeSpan.Zero,
+        RoleClaimType = "role"
+    };
+
+    options.Events = new JwtBearerEvents
+    {
+        OnAuthenticationFailed = context =>
+        {
+            if (context.Exception is SecurityTokenExpiredException)
+            {
+                context.NoResult();
+                context.Response.StatusCode = StatusCodes.Status401Unauthorized;
+                context.Response.Headers["Token-Expired"] = "true";
+                context.Response.Headers.Remove("WWW-Authenticate");
+                context.Response.ContentType = "application/json";
+
+                var response = Response<string>.Fail("Token expired", 401);
+
+                var json = System.Text.Json.JsonSerializer.Serialize(response);
+
+                return context.Response.WriteAsync(json);
+            }
+            return Task.CompletedTask;
+        },
+        OnForbidden = context =>
+        {
+            context.Response.StatusCode = StatusCodes.Status403Forbidden;
+            context.Response.ContentType = "application/json";
+
+            var response = Response<string>.Fail(
+                "You do not have permission to access this resource.", 403
+                );
+
+            var json = System.Text.Json.JsonSerializer.Serialize(response);
+
+            return context.Response.WriteAsync(json);
+        }
     };
 
 });
@@ -104,7 +159,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+app.UseCors("AllowAll");
 app.UseMiddleware<ExceptiongHandlingMiddleware>();
 
 app.UseAuthentication();

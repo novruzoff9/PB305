@@ -1,6 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Pb305OnionArc.Domain.Models;
+﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Pb305OnionArc.Persistance.Configurations;
 

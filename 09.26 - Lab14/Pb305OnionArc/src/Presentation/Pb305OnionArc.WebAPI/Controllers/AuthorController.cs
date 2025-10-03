@@ -11,7 +11,6 @@ namespace Pb305OnionArc.WebAPI.Controllers;
 [ApiController]
 public class AuthorController(IAuthorService authorService) : ControllerBase
 {
-    [Authorize]
     [HttpGet]
     public async Task<IActionResult> GetAllAuthors()
     {
@@ -28,6 +27,7 @@ public class AuthorController(IAuthorService authorService) : ControllerBase
         return Ok(response);
     }
     [HttpPost]
+    [Authorize(Roles ="admin")]
     public async Task<IActionResult> CreateAuthor([FromBody] CreateAuthorDto createAuthorDto)
     {
         var author = await authorService.CreateAuthorAsync(createAuthorDto);
