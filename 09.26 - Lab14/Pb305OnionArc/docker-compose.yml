@@ -1,0 +1,6 @@
+services:
+  pb305onionarc.webapi:
+    image: ${DOCKER_REGISTRY-}pb305onionarcwebapi
+    build:
+      context: .
+      dockerfile: src/Presentation/Pb305OnionArc.WebAPI/Dockerfile

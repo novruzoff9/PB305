@@ -14,7 +14,7 @@ public static class DependencyInjection
 
         services.AddDbContext<AppDbContext>(
             (sp, options) => options
-                .UseSqlServer(configuration.GetConnectionString("default"))
+                .UseNpgsql(configuration.GetConnectionString("default"))
                 .AddInterceptors(
                     sp.GetRequiredService<SoftDeleteInterceptor>()));
 
