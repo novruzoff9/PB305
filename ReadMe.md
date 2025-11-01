@@ -31,11 +31,33 @@ Bu repositorya PB305 kursunun bütün praktiki məşğələlərini və layihəl�
 |-------|--------|-------|
 | [4 İyul](#lab-8---04-iyul) | N-Tier, Repository, DTO, ModelConfiguration | [📁 Lab8](./07.04%20-%20Lab8) |
 
-### 🔹 JavaScript Fundamentals
+### 🔹 Front-End Development
 
 | Tarix | Mövzu | Əlavə |
 |-------|--------|-------|
+| [18 İyul](#lab-9---18-iyul) | HTML/CSS, Bootstrap, Responsive Design | [📁 Lab9](./07.18%20-%20Lab9) |
 | [25 İyul](#lab-10---25-iyul) | JavaScript Alqoritmlər, Array/String Methods | [📁 Lab10](./07.25%20-%20Lab10) |
+| [1 Avqust](#lab-11---01-avqust) | JavaScript DOM, Events, Projects | [📁 Lab11](./08.01%20-%20Lab11) |
+
+### 🔹 ASP.NET MVC
+
+| Tarix | Mövzu | Əlavə |
+|-------|--------|-------|
+| [15 Avqust](#lab-12---15-avqust) | MVC Pattern, Razor Pages, Views | [📁 Lab12](./08.15%20-%20Lab12) |
+| [19 Sentyabr](#lab-13---19-sentyabr) | MVC Advanced, EF Core, CRUD | [📁 Lab13](./09.19%20-%20Lab13) |
+
+### 🔹 Advanced Architecture
+
+| Tarix | Mövzu | Əlavə |
+|-------|--------|-------|
+| [26 Sentyabr](#lab-14---26-sentyabr) | Onion Architecture, Docker, PostgreSQL | [📁 Lab14](./09.26%20-%20Lab14) |
+
+### 🔹 Final Projects
+
+| Tarix | Mövzu | Əlavə |
+|-------|--------|-------|
+| [Final Project](#final-project---next-js) | Next.js, TypeScript, Shadcn UI, Authentication | [📁 FinalFront](./FinalFront) |
+
 ---
 
 ## 📋 Dərs Detayları
@@ -186,6 +208,20 @@ Bu repositorya PB305 kursunun bütün praktiki məşğələlərini və layihəl�
 
 ---
 
+### Lab 9 - 18 İyul
+**📖 HTML/CSS və Bootstrap ilə Portfolio**
+- HTML5 semantic elementlər
+- CSS3 styling və animations
+- Bootstrap framework
+- Responsive design prinsipləri
+- Flexbox və Grid layout
+- Font Awesome icons
+- Portfolio page dizaynı
+
+**🔗 Folder:** [07.18 - Lab9](./07.18%20-%20Lab9)
+
+---
+
 ### Lab 10 - 25 İyul
 **📖 JavaScript ilə Alqoritmlər**
 - Conditional Statements (if/else, switch/case)
@@ -197,6 +233,93 @@ Bu repositorya PB305 kursunun bütün praktiki məşğələlərini və layihəl�
 - Mini proyektlər (Calculator, Library, TodoManager)
 
 **🔗 Folder:** [07.25 - Lab10](./07.25%20-%20Lab10)
+
+---
+
+### Lab 11 - 1 Avqust
+**📖 JavaScript DOM Manipulation və Projects**
+- DOM Selection və Manipulation
+- Event Handling (click, input, submit, etc.)
+- Form Validation
+- LocalStorage istifadəsi
+- **Layihələr:**
+  - Form Validation (input validation, error messages)
+  - Live Search (real-time filtering)
+  - Quiz Application (interactive quiz)
+  - Timer Application (countdown/stopwatch)
+
+**🔗 Folder:** [08.01 - Lab11](./08.01%20-%20Lab11)
+
+---
+
+### Lab 12 - 15 Avqust
+**📖 ASP.NET MVC - SnapFolio Portfolio**
+- ASP.NET Core MVC pattern
+- Razor Pages və View Engine
+- Model-View-Controller arxitekturası
+- Routing və navigation
+- Layout pages və partial views
+- Static files və wwwroot
+- Bootstrap integration
+- Portfolio website yaratmaq
+
+**🔗 Folder:** [08.15 - Lab12](./08.15%20-%20Lab12)
+
+---
+
+### Lab 13 - 19 Sentyabr
+**📖 ASP.NET MVC Advanced - Car Management**
+- Entity Framework Core
+- Code-First approach
+- CRUD operations
+- Data annotations
+- Model validation
+- Repository pattern
+- Dependency Injection
+- Car management system
+
+**🔗 Folder:** [09.19 - Lab13](./09.19%20-%20Lab13)
+
+---
+
+### Lab 14 - 26 Sentyabr
+**📖 Onion Architecture - Clean Architecture**
+- Onion Architecture prinsipləri
+- Layer separation (Domain, Application, Infrastructure, Presentation)
+- Dependency Injection advanced
+- Repository və Unit of Work patterns
+- AutoMapper və DTO mapping
+- Entity Framework Core advanced
+- Docker containerization
+- PostgreSQL database
+- JWT Authentication
+- Soft Delete pattern
+- Book və Author management system
+
+**🔗 Folder:** [09.26 - Lab14](./09.26%20-%20Lab14)
+
+---
+
+### Final Project - Next.js
+**📖 Next.js Full-Stack Application**
+- **Framework:** Next.js 14+ (App Router)
+- **Language:** TypeScript
+- **UI Library:** Shadcn UI, Radix UI
+- **Styling:** Tailwind CSS
+- **State Management:** React Context API
+- **Form Handling:** React Hook Form, Zod validation
+- **Authentication:** JWT Token based
+- **Features:**
+  - User authentication (Login/Register)
+  - Author management (CRUD)
+  - Book management (CRUD)
+  - User profile
+  - Responsive design
+  - Dark/Light theme
+  - Server-side rendering
+  - API integration
+
+**🔗 Folder:** [FinalFront](./FinalFront)
 
 ---
 
